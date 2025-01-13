@@ -17,7 +17,7 @@ steps:
     jdkSourceOption: 'PreInstalled'
 - task: SonatypeIntegrations.nexus-iq-azure-extension.nexus-iq-azure-pipeline-task.NexusIqPipelineTask@2
   inputs:
-    nexusIqService: 'SonatypeSonatypeApp'
+    nexusIqService: 'InttestSonatypeApp'
     # organizationId: '57fc121d6f8b4b9a89c683f02a699a8f'
     applicationId: 'testdata'
     stage: 'Build'
